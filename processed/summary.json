@@ -1,0 +1,33 @@
+{
+  "n_genes_after_filter": 42536,
+  "min_detect_frac": 0.2,
+  "n_splits": 3,
+  "cancer_vs_normal": {
+    "n_samples": 128,
+    "n_groups": 76,
+    "class_counts": {
+      "1": 96,
+      "0": 32
+    }
+  },
+  "recurrence": {
+    "n_samples": 96,
+    "n_donors": 44,
+    "n_pos_donors": 10,
+    "class_counts_samples": {
+      "0": 68,
+      "1": 28
+    }
+  },
+  "validation": {
+    "n_samples": 161,
+    "y_cancer_counts": {
+      "1": 83,
+      "0": 78
+    },
+    "y_recur_counts": {
+      "0": 75,
+      "1": 8
+    }
+  }
+}
