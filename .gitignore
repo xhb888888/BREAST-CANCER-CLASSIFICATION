@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
